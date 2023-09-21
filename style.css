@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&family=Sora:wght@200;400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+  
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 2rem 4rem;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+}
+
+
+nav img {
+flex-direction: row;
+}
+
+.nav_list {
+    list-style: none;
+}
+
+.aglogo {
+    
+}
+
+.banner-left {
+    font-family: 'Sora', sans-serif;
+}
+.banner-left p{
+    font-family: 'Inter', sans-serif;
+}
+
+.banner-right-img img{
+
+}
+
+.banner-mid-left{
+    width: 10%;
+    height: 20%;
+    display: flex;
+}
